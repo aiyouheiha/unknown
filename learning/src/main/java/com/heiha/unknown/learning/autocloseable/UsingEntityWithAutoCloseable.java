@@ -5,6 +5,8 @@ package com.heiha.unknown.learning.autocloseable;
  * <b>Project:</b> unknown<br>
  * <b>Date:</b> 2017/5/27 14:45<br>
  * <b>Author:</b> heiha<br>
+ *
+ * About how to use, see its Test class.
  */
 public class UsingEntityWithAutoCloseable {
     public void use() {
