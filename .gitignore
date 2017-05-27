@@ -7,3 +7,4 @@ target/
 classes/
 *.log
 logs/
+jgitTestRepo/
