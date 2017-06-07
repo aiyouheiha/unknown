@@ -11,6 +11,7 @@
     <modules>
         <module>learning</module>
         <module>common</module>
+        <module>test</module>
     </modules>
 
     <dependencies>
