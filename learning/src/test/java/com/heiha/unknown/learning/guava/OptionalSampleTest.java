@@ -11,12 +11,12 @@ import static org.junit.Assert.*;
  * <b>Date:</b> 2017/6/1 14:43<br>
  * <b>Author:</b> heiha<br>
  */
-public class GuavaUsingSampleTest {
-    private GuavaUsingSample sample;
+public class OptionalSampleTest {
+    private OptionalSample sample;
 
     @Before
     public void setUp() throws Exception {
-        sample = new GuavaUsingSample();
+        sample = new OptionalSample();
     }
 
     @Test
