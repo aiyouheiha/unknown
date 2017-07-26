@@ -10,8 +10,12 @@ import java.util.concurrent.CountDownLatch;
  *
  * {@link Thread#join()} only wait for thread work finish,
  * and {@link CountDownLatch} can wait for step 1 of thread work finish. <br>
+ * <p>
+ * What's more? When use Executor, get thread reference is hard or no way, CountDownLatch become a good choice. <br>
+ * Obviously, the way {@link ThreadJoinDemo} using thread reference to start and join is ugly, that's not wise.
  *
- * <a href="http://blog.csdn.net/zhutulang/article/details/48504487">reference1</a>
+ * <a href="http://blog.csdn.net/zhutulang/article/details/48504487">reference1</a><br>
+ * <a href="http://developer.51cto.com/art/201403/432095.htm">reference2</a>
  */
 public class ShowDiffMain {
     public static void main(String[] args) throws InterruptedException {
