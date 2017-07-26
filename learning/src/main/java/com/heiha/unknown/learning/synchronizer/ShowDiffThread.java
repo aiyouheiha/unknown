@@ -1,4 +1,4 @@
-package com.heiha.unknown.learning.countdownlatch;
+package com.heiha.unknown.learning.synchronizer;
 
 import java.util.concurrent.CountDownLatch;
 

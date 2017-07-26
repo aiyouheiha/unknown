@@ -1,4 +1,4 @@
-package com.heiha.unknown.learning.countdownlatch;
+package com.heiha.unknown.learning.synchronizer;
 
 /**
  * <br>
